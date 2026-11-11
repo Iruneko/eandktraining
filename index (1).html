@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E&amp;K Wellness | Episode 1 Script</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="brand">E&amp;K Wellness</p>
+    <h1>It’s Not Too Late at 60!</h1>
+    <p class="subtitle">Strength, Parkour &amp; Tai Chi for Beginners &middot; 15 Min &middot; No Jumping</p>
+    <p class="lead">The warm-up gets the body ready to move. The main focus is on strength training, parkour, and tai chi. No equipment needed &mdash; a wall is all you need.</p>
+    <div class="actions">
+      <button type="button" id="toggleOnscreen" aria-pressed="true">Hide on-screen text</button>
+      <button type="button" id="printPage">Print</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" id="schedule">
+      <h2>15-Minute Schedule</h2>
+      <p class="hint">Click a row to jump to that part of the script.</p>
+      <table>
+        <thead><tr><th>Time</th><th>Segment</th></tr></thead>
+        <tbody>
+          <tr data-target="hook"><td>0:00&ndash;0:10</td><td>Hook (quick preview of the movements)</td></tr>
+          <tr data-target="welcome"><td>0:10&ndash;0:45</td><td>Welcome and safety reminder</td></tr>
+          <tr data-target="warmup"><td>0:45&ndash;2:45</td><td>Dynamic warm-up</td></tr>
+          <tr data-target="strength"><td>2:45&ndash;6:45</td><td>Bodyweight strength</td></tr>
+          <tr data-target="parkour"><td>6:45&ndash;9:45</td><td>Parkour basics</td></tr>
+          <tr data-target="taichi"><td>9:45&ndash;12:45</td><td>Tai chi movements</td></tr>
+          <tr data-target="challenge"><td>12:45&ndash;14:15</td><td>Four-move mini challenge</td></tr>
+          <tr data-target="closing"><td>14:15&ndash;15:00</td><td>Cool-down and closing</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" id="before">
+      <h2>Before Filming</h2>
+      <p class="hint">Your checks are saved in this browser.</p>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> Wear shoes with good grip and clear the floor around you.</label></li>
+        <li><label><input type="checkbox"> Place 3&ndash;4 pieces of floor tape as markers (one line, two side markers).</label></li>
+        <li><label><input type="checkbox"> Film near a wall so viewers can see how to use it for balance.</label></li>
+        <li><label><input type="checkbox"> Use a full-body shot, with the camera about 8&ndash;10 feet away.</label></li>
+        <li><label><input type="checkbox"> Record the voice in a quiet room, or record a voice-over afterward.</label></li>
+        <li><label><input type="checkbox"> Remind viewers to move at their own pace and stop if they feel pain or unsteady.</label></li>
+      </ul>
+      <button type="button" class="ghost" id="resetChecks">Clear checks</button>
+    </section>
+
+    <h2 class="part-title">Script</h2>
+
+    <section class="card segment" id="hook">
+      <div class="seg-head"><span class="time">0:00&ndash;0:10</span><h3>Hook</h3></div>
+      <p class="note">Show 3&ndash;4 quick clips (1&ndash;2 seconds each): a squat, a step over the tape, a slow tai chi shift, and a smile at the camera.</p>
+      <blockquote class="say">“Strength, parkour, and tai chi, all in 15 minutes. No jumping, no equipment. And yes, you can do it at 60!”</blockquote>
+      <p class="onscreen"><span>On-screen text</span>15 minutes &bull; No jumping &bull; Wall for support</p>
+    </section>
+
+    <section class="card segment" id="welcome">
+      <div class="seg-head"><span class="time">0:10&ndash;0:45</span><h3>Welcome</h3></div>
+      <blockquote class="say">“Hi, and welcome to E&amp;K Wellness! Today we’ll try four kinds of movement: warm-up, strength, parkour, and tai chi. If you’re new to exercise, start small. Keep a wall nearby for support, and take a break any time you feel pain or unsteady. If you have a health condition or recently had surgery, please check with your doctor first.”</blockquote>
+      <p class="note"><strong>Optional personal line</strong> (only if you’re comfortable sharing):</p>
+      <blockquote class="say optional">“I’m in my 60s and I’m getting back in shape after back surgery, so I’ll show you smaller versions of everything. We’re doing this together.”</blockquote>
+      <p class="onscreen"><span>On-screen text</span>Start small &bull; Use the wall &bull; Stop if you feel pain</p>
+    </section>
+
+    <section class="card segment" id="warmup">
+      <div class="seg-head"><span class="time">0:45&ndash;2:45</span><h3>Dynamic Warm-Up</h3></div>
+      <p class="note">Keep moving throughout this section. The goal is to prepare the body for the exercises, not to stay in one stretch.</p>
+      <article class="move"><h4>March in place <small>0:45&ndash;1:15</small></h4>
+        <blockquote class="say">“Let’s start by marching in place. You don’t have to lift your knees high. Swing your arms comfortably, and breathe naturally.”</blockquote></article>
+      <article class="move"><h4>Shoulder rolls and arm openings <small>1:15&ndash;1:45</small></h4>
+        <blockquote class="say">“Roll your shoulders gently backward. Now open your arms out to the sides, as if you’re opening your chest, and bring them back in.”</blockquote></article>
+      <article class="move"><h4>Side steps <small>1:45&ndash;2:15</small></h4>
+        <blockquote class="say">“Step to the right and come back. Now step to the left. Keep your steps small and watch your footing.”</blockquote></article>
+      <article class="move"><h4>Gentle hip movement <small>2:15&ndash;2:45</small></h4>
+        <blockquote class="say">“Stand with your feet about hip-width apart and place your hands on your thighs. Gently push your hips back, then return to standing. You don’t need to bend very far.”</blockquote></article>
+    </section>
+
+    <section class="card segment" id="strength">
+      <div class="seg-head"><span class="time">2:45&ndash;6:45</span><h3>Bodyweight Strength</h3></div>
+      <p class="note">Tip: show the regular version first, then a smaller version.</p>
+      <article class="move"><h4>1. Squats <small>about 1 min</small></h4>
+        <p>Stand with your feet about hip-width apart. Push your hips back as if you were going to sit, then stand up again. Do about 6&ndash;8 repetitions. Keep the movement shallow if that feels more comfortable. Use the wall for support if needed.</p>
+        <blockquote class="say">“Push your hips back, then slowly stand up. Keep your knees pointing in the same direction as your toes. Move only as far as you feel comfortable.”</blockquote>
+        <p class="onscreen"><span>On-screen text</span>Shallow is fine</p></article>
+      <article class="move"><h4>2. Wall push-ups <small>about 1 min</small></h4>
+        <p>Place both hands on the wall at about chest height. Bend your elbows to bring your chest toward the wall, then push back. Do about 6&ndash;10 repetitions.</p>
+        <blockquote class="say">“Place your hands on the wall. Bring your chest a little closer, then push away. Breathe out as you push.”</blockquote>
+        <p class="onscreen"><span>On-screen text</span>Closer feet = easier &bull; Farther feet = harder</p></article>
+      <article class="move"><h4>3. Heel raises <small>about 1 min</small></h4>
+        <p>Stand near the wall. Slowly lift your heels, then lower them. Do about 8&ndash;12 repetitions.</p>
+        <blockquote class="say">“Lift your heels and lower them slowly. If you feel unsteady, place your hands on the wall.”</blockquote></article>
+      <article class="move"><h4>4. Standing knee lifts <small>about 1 min</small></h4>
+        <p>Lift one knee slightly, lower it, and switch sides. Keep the movement small. Hold the wall lightly if you need support.</p>
+        <blockquote class="say">“Now lift one knee at a time. Keep your back tall and your movements comfortable.”</blockquote></article>
+    </section>
+
+    <section class="card segment" id="parkour">
+      <div class="seg-head"><span class="time">6:45&ndash;9:45</span><h3>Parkour Basics</h3></div>
+      <p class="note">Use the floor tape as a line or marker. For this first episode, there’s no jumping. The focus is on stepping, moving, and stopping with control.</p>
+      <blockquote class="say">“Parkour is about moving through space with awareness. Today, we’ll keep it simple: no jumping, just careful steps.”</blockquote>
+      <article class="move"><h4>1. Step over the line <small>about 1 min</small></h4>
+        <p>Stand in front of the tape. Slowly step over it with one foot, then step back. Switch legs and repeat. <em>Camera: brief close-up of the feet.</em></p>
+        <blockquote class="say">“Let’s step over the line and come back. You don’t need to take a big step. Focus on where you place your feet.”</blockquote></article>
+      <article class="move"><h4>2. Side steps <small>about 1 min</small></h4>
+        <p>Step sideways between the floor markers, pausing after each step.</p>
+        <blockquote class="say">“Step to the right and pause. Now step to the left and pause. Take your time and stay steady.”</blockquote></article>
+      <article class="move"><h4>3. Step and hold <small>about 1 min</small></h4>
+        <p>Take one step toward a marker and pause for two seconds. Switch legs and repeat.</p>
+        <blockquote class="say">“Take one step and hold your position. Parkour is also about controlling your movement and finding your balance after each step.”</blockquote>
+        <p class="onscreen"><span>On-screen text</span>Step over &bull; Move sideways &bull; Stop with control</p></article>
+    </section>
+
+    <section class="card segment" id="taichi">
+      <div class="seg-head"><span class="time">9:45&ndash;12:45</span><h3>Tai Chi Movements</h3></div>
+      <p class="note">Move slowly. Keep the knees soft (slightly bent, never locked), and breathe naturally.</p>
+      <article class="move"><h4>1. Shift your weight side to side <small>about 1 min</small></h4>
+        <p>Stand with your feet comfortably apart and your knees relaxed. Slowly shift your weight from one side to the other.</p>
+        <blockquote class="say">“Shift your weight to the right, return to the center, then shift to the left. Feel your feet on the floor and move slowly.”</blockquote></article>
+      <article class="move"><h4>2. Add your arms <small>about 1 min</small></h4>
+        <p>As you shift your weight to one side, gently move your arms in the same direction. Repeat on the other side.</p>
+        <blockquote class="say">“Let your arms follow your body. Keep your shoulders relaxed and continue breathing.”</blockquote></article>
+      <article class="move"><h4>3. Small step forward and back <small>about 1 min</small></h4>
+        <p>Take a small step forward, gently shift your weight, then step back. Switch sides. Stay near the wall if you need support.</p>
+        <blockquote class="say">“Take a small step forward, shift your weight, and slowly return. Keep your steps small and comfortable.”</blockquote></article>
+    </section>
+
+    <section class="card segment" id="challenge">
+      <div class="seg-head"><span class="time">12:45&ndash;14:15</span><h3>Four-Move Mini Challenge</h3></div>
+      <p class="note">Put the movements together in this order, then repeat the sequence twice, moving slowly.</p>
+      <ol class="sequence">
+        <li>March in place four times</li>
+        <li>Do two squats</li>
+        <li>Step over the tape line and back</li>
+        <li>Shift your weight from side to side</li>
+      </ol>
+      <blockquote class="say">“Now it’s time for our mini challenge! March in place, do two squats, step over the line, and finish with a slow weight shift. Go at your own pace. Ready? Let’s do it together!”</blockquote>
+      <p class="note">Before the second round:</p>
+      <blockquote class="say">“You’re doing great. There’s no need to rush. Let’s try it one more time at a comfortable pace.”</blockquote>
+      <p class="onscreen"><span>On-screen text (keep on screen)</span>March &rarr; Squat &rarr; Step over &rarr; Shift your weight</p>
+    </section>
+
+    <section class="card segment" id="closing">
+      <div class="seg-head"><span class="time">14:15&ndash;15:00</span><h3>Cool-Down and Closing</h3></div>
+      <p class="note">March slowly in place, take two comfortable breaths, and gently roll your shoulders.</p>
+      <blockquote class="say">“Let’s slow down with a gentle march and take a moment to catch our breath. You don’t have to do every movement. Even trying one is a great start.”</blockquote>
+      <blockquote class="say">“Which movement was your favorite, or which one felt the hardest? Tell me in the comments. In the next episode, we’ll combine four more movements. If you’d like to join us, please subscribe. See you next time!”</blockquote>
+      <p class="onscreen"><span>On-screen text</span>Next episode: four new movements</p>
+      <p class="note"><strong>End screen (last 10&ndash;20 seconds):</strong> keep the background quiet so the video card and the subscribe button are easy to see.</p>
+    </section>
+
+    <section class="card" id="tips">
+      <h2>Filming Tips</h2>
+      <ul class="plain">
+        <li>Show the regular version first, then demonstrate a smaller version.</li>
+        <li>Include a brief close-up of the feet during the parkour section.</li>
+        <li>Use a full-body shot so viewers can follow each movement.</li>
+        <li>Emphasize foot placement, posture, and stopping with control.</li>
+        <li>Present parkour as moving through space with awareness and control, without jumps in this first episode.</li>
+        <li>Add the on-screen text in large letters (viewers may watch without sound).</li>
+        <li>Film the hook last, after you know which moments look best.</li>
+        <li>End with a short preview of the next episode’s theme.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="publish">
+      <h2>Publishing Kit</h2>
+
+      <h3>Title</h3>
+      <div class="copybox"><pre id="copyTitle">It's Not Too Late at 60! Strength, Parkour &amp; Tai Chi for Beginners (15 Min, No Jumping)</pre>
+        <button type="button" class="copy" data-copy="copyTitle">Copy</button></div>
+
+      <h3>Description</h3>
+      <div class="copybox"><pre id="copyDesc">A gentle 15-minute workout for beginners: warm-up, bodyweight strength, parkour basics (no jumping!), and tai chi. All you need is a wall for support.
+
+0:00 Preview
+0:10 Welcome and safety
+0:45 Warm-up
+2:45 Strength
+6:45 Parkour basics
+9:45 Tai chi
+12:45 Mini challenge
+14:15 Cool-down
+
+Move at your own pace and stop if you feel pain or unsteady. This video is for general information, not medical advice. If you have a health condition or recently had surgery, please check with your doctor first.
+
+Which movement was your favorite? Tell me in the comments!
+
+eandkwellness.com
+
+#seniorfitness #over60 #parkour #taichi #strengthtraining #beginnerworkout</pre>
+        <button type="button" class="copy" data-copy="copyDesc">Copy</button></div>
+
+      <h3>Pinned comment</h3>
+      <div class="copybox"><pre id="copyPin">Which movement was your favorite, or the hardest one? 👇</pre>
+        <button type="button" class="copy" data-copy="copyPin">Copy</button></div>
+
+      <h3>Thumbnail idea</h3>
+      <ul class="plain">
+        <li>Big text: <strong>“60+ PARKOUR?”</strong> or <strong>“NOT TOO LATE AT 60”</strong></li>
+        <li>Small text: <em>15 min &bull; No jumping</em></li>
+        <li>Photo: a smiling, full-body shot stepping over the tape line.</li>
+        <li>Use the same colors as your Week 1&ndash;3 thumbnails so the channel looks consistent.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>E&amp;K Wellness &middot; eandkwellness.com</p>
+    <p class="small">General information only, not medical advice.</p>
+  </footer>
+
+  <button type="button" id="toTop" class="to-top" aria-label="Back to top">&uarr;</button>
+  <script src="script.js"></script>
+</body>
+</html>
